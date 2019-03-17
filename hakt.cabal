@@ -1,0 +1,28 @@
+name:          hakt
+category:      game
+version:       0.1.0
+license:       MIT
+cabal-version: >= 1.10
+license-file:  LICENSE
+author:        Kyle McKean
+maintainer:    Kyle McKean <mckean.kylej@gmail.com>
+stability:     experimental
+homepage:      http://github.com/mckeankylej/hakt
+bug-reports:   http://github.com/mckeankylej/hakt/issues
+copyright:     Copyright (C) 2019 Kyle McKean
+synopsis:      A Hakt AI
+description:   FIXME
+build-type:    Simple
+tested-with:   GHC == 8.6.4
+
+source-repository head
+  type: git
+  location: git://github.com/mckeankylej/hakt.git
+
+library
+  hs-source-dirs: src
+  default-language: Haskell2010
+  build-depends:
+      base                 >= 4.11 && < 5
+  exposed-modules:
+      Hakt.Board

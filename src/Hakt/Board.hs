@@ -1,0 +1,3 @@
+module Hakt.Board
+  (
+  ) where
